@@ -1,0 +1,13 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "workers-airtable-form",
+	"main": "src/index.js",
+	"compatibility_date": "2025-02-24",
+	"observability": {
+		"enabled": true
+	},
+  "vars": {
+    "AIRTABLE_BASE_ID": "appHDyAT5CdZUl8fq",
+    "AIRTABLE_TABLE_NAME": "Plan Well"
+  }
+}
